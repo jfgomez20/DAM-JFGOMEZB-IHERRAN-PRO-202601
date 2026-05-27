@@ -1,0 +1,202 @@
+import { StyleSheet } from "react-native";
+import { COLORS, FONTS } from "../../core/config";
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: COLORS.background,
+  },
+  listContent: {
+    paddingHorizontal: 22,
+    paddingTop: 58,
+    paddingBottom: 110,
+  },
+  profileHeader: {
+    backgroundColor: COLORS.white,
+    borderRadius: 32,
+    padding: 22,
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: COLORS.border,
+    marginBottom: 16,
+    shadowColor: COLORS.primaryDark,
+    shadowOffset: { width: 0, height: 12 },
+    shadowOpacity: 0.06,
+    shadowRadius: 18,
+    elevation: 4,
+  },
+  avatarContainer: {
+    width: 118,
+    height: 118,
+    borderRadius: 59,
+    backgroundColor: COLORS.primaryLight,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 14,
+    borderWidth: 3,
+    borderColor: COLORS.primary,
+    overflow: "hidden",
+  },
+  avatar: {
+    width: "100%",
+    height: "100%",
+  },
+  avatarPlaceholder: {
+    flex: 1,
+    width: "100%",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: COLORS.primaryLight,
+  },
+  avatarIcon: {
+    fontSize: 44,
+  },
+  name: {
+    fontFamily: FONTS.bold,
+    color: COLORS.text,
+    fontSize: 24,
+    textAlign: "center",
+    marginBottom: 4,
+  },
+  email: {
+    fontFamily: FONTS.regular,
+    color: COLORS.muted,
+    fontSize: 14,
+    textAlign: "center",
+    marginBottom: 12,
+  },
+  photoButton: {
+    width: "100%",
+  },
+  statsRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 18,
+  },
+  statCard: {
+    width: "31.5%",
+    backgroundColor: COLORS.white,
+    borderRadius: 22,
+    paddingVertical: 14,
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: COLORS.border,
+  },
+  statNumber: {
+    fontFamily: FONTS.bold,
+    color: COLORS.primary,
+    fontSize: 24,
+    marginBottom: 2,
+  },
+  statLabel: {
+    fontFamily: FONTS.regular,
+    color: COLORS.muted,
+    fontSize: 12,
+  },
+  tabs: {
+    paddingBottom: 12,
+  },
+  tab: {
+    height: 40,
+    paddingHorizontal: 18,
+    borderRadius: 20,
+    backgroundColor: COLORS.white,
+    alignItems: "center",
+    justifyContent: "center",
+    borderWidth: 1,
+    borderColor: COLORS.border,
+    marginRight: 10,
+  },
+  tabActive: {
+    backgroundColor: COLORS.primary,
+    borderColor: COLORS.primary,
+  },
+  tabText: {
+    fontFamily: FONTS.bold,
+    color: COLORS.muted,
+    fontSize: 13,
+  },
+  tabTextActive: {
+    color: COLORS.white,
+  },
+  sectionTitle: {
+    fontFamily: FONTS.bold,
+    color: COLORS.text,
+    fontSize: 20,
+    marginBottom: 12,
+    marginTop: 4,
+  },
+  eventCard: {
+    flexDirection: "row",
+    backgroundColor: COLORS.white,
+    borderRadius: 24,
+    padding: 12,
+    marginBottom: 14,
+    borderWidth: 1,
+    borderColor: COLORS.border,
+  },
+  eventImage: {
+    width: 92,
+    height: 92,
+    borderRadius: 18,
+    marginRight: 14,
+  },
+  eventInfo: {
+    flex: 1,
+  },
+  eventCategory: {
+    fontFamily: FONTS.bold,
+    color: COLORS.primary,
+    fontSize: 10,
+    marginBottom: 5,
+  },
+  eventTitle: {
+    fontFamily: FONTS.bold,
+    color: COLORS.text,
+    fontSize: 15,
+    marginBottom: 5,
+  },
+  eventMeta: {
+    fontFamily: FONTS.regular,
+    color: COLORS.muted,
+    fontSize: 12,
+    marginBottom: 5,
+  },
+  eventDescription: {
+    fontFamily: FONTS.regular,
+    color: COLORS.muted,
+    fontSize: 12,
+    lineHeight: 17,
+  },
+  emptyBox: {
+    backgroundColor: COLORS.white,
+    borderRadius: 26,
+    padding: 26,
+    alignItems: "center",
+    borderWidth: 1,
+    borderColor: COLORS.border,
+  },
+  emptyIcon: {
+    fontSize: 36,
+    marginBottom: 10,
+  },
+  emptyTitle: {
+    fontFamily: FONTS.bold,
+    color: COLORS.text,
+    fontSize: 18,
+    marginBottom: 6,
+  },
+  emptyText: {
+    fontFamily: FONTS.regular,
+    color: COLORS.muted,
+    textAlign: "center",
+    fontSize: 14,
+    lineHeight: 20,
+  },
+logoutButton: {
+  width: "100%",
+  marginTop: 4,
+},
+});
+
+export default styles;
